@@ -45,6 +45,10 @@ width: 80%;
 
 }
 
+.high-low-temp {
+    text-align: center;
+}
+
 footer {
     border-top: 1px solid #c6def1;
     color: rgba(0, 0, 0, 0.6);
