@@ -68,9 +68,12 @@ main {
     display: flex;
 }
 
+.weather-app-icon {
+    font-size: 45px;
+}
+
 .weather-app-temperature {
-    font-size: 88px;
-    font-weight: 500;
+    font-size: 50px;
 }
 
 footer {
