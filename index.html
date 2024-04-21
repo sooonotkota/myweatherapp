@@ -3,50 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="weather-app">
-    <header>
-      <form class="search-form">
-        <input type="Search" placeholder="Enter a city..." required class="search-form-input" />
-        <input type="Submit" value="search" class="search-form-button"/>
-      </form>
-    </header>
-    <main>
+      <header>
+        <form class="search-form">
+          <input
+            type="Search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="Submit" value="search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
         <div class="weather-app-data">
-      <div>
-        <h1 class="weather-app-city">Rockford</h1>
-        <h2>
-          <div class="weather-app-temp">☁️37&deg;</div>
           <div>
-            April <br />
-            21st
+            <h1 class="weather-app-city">Rockford</h1>
+            <p class="weather-app-details">
+              ⏱<strong>Sunday, April 21st </strong> <br />
+              Sunny <br />
+              13:00
+            </p>
+          </div>
+          <div class="weather-app-temp-container">
+            <div class="weather-app-icon">☁︎⋅</div>
+            <div class="weather-app-temp" 37&deg;></div>
           </div>
         </div>
-        </h2>
-        <p class="weather-app-details">
-          ⏱<strong>Sunday </strong> <br/> Sunny <br/> 13:00 
-        </p>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/sooonotkota" target="_blank">
-        Dakota Thomas
-      </a>
-      is
-      <a href="https://github.com/sooonotkota/myweatherapp" target="_blank">
-        open-sourced on Github</a
-      >
-      and
-      <a href="https://kotaweatherapp.netlify.app" target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/sooonotkota" target="_blank">
+          Dakota Thomas
+        </a>
+        is
+        <a href="https://github.com/sooonotkota/myweatherapp" target="_blank">
+          open-sourced on Github</a
+        >
+        and
+        <a href="https://kotaweatherapp.netlify.app" target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
     </div>
   </body>
 </html>

@@ -64,6 +64,10 @@ main {
     color: #435560;
 }
 
+.weather-app-temp-container {
+    display: flex;
+}
+
 footer {
     border-top: 1px solid #c6def1;
     color: rgba(0, 0, 0, 0.6);
