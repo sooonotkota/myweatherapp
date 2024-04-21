@@ -6,10 +6,6 @@ body {
   font-style: normal;
 }
 
-a {
-  background-color: #435560;  
-}
-
 .weather-app {
   background: white;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -46,7 +42,7 @@ width: 80%;
 .weather-app-data {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 footer {
