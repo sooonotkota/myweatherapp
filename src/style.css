@@ -43,6 +43,12 @@ width: 80%;
     margin-left: 5px;
 }
 
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 footer {
     border-top: 1px solid #c6def1;
     color: rgba(0, 0, 0, 0.6);
