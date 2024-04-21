@@ -2,7 +2,6 @@ body {
   background-color: #c6def1;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -13,10 +12,6 @@ body {
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
-}
-
-h1 {
-
 }
 
 header {
@@ -60,7 +55,7 @@ main {
 
 .weather-app-details {
    color:rgba(39, 33, 66, 0.4);
-    font-size: 16px;
+    font-size: 30wepx;
     line-height: 24px;
     font-weight: 500;
 }
