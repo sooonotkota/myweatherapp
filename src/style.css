@@ -74,6 +74,7 @@ main {
 
 .weather-app-temperature {
     font-size: 50px;
+    margin-left: 10px;
 }
 
 footer {
