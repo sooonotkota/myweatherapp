@@ -41,7 +41,7 @@ function formatDate(date) {
 
 function searchCity(city) {
   let apiKey = "c5fb501012566e9bd47a3bo39e25tb37";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Rockford&key=c5fb501012566e9bd47a3bo39e25tb37&units=imperial`;
   axios.get(apiUrl).then(refreshWeather);
 }
 
