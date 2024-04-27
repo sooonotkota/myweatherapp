@@ -10,6 +10,7 @@ function refreshWeather(response) {
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
   temperatureElement.innerHTML = Math.round(temperature);
+}
 
 function formatDate(date) {
   let minutes = date.getMinutes();
