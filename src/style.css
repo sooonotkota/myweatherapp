@@ -2,8 +2,10 @@ body {
   background-color: #f3aab5;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 200;
   font-style: normal;
 }
+
 
 a {
   color: #F3AAB5;
