@@ -16,7 +16,7 @@ body {
 }
 
 .search-form-input {
-background-color: #f3aab5;
+background-color: #f9cfd0;
 border: none;
 border-radius: 6px;
 font-size: 16px;
@@ -25,7 +25,7 @@ width: 80%;
 }
 
 .search-form-button{
-  background-color: #f9cfd0;
+  background-color: #f3aab5;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
