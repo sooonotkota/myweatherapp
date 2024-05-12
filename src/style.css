@@ -1,6 +1,9 @@
 body {
   background-color: #f3aab5;
- font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -22,22 +25,22 @@ a {
 }
 
 .search-form-input {
-background-color: #f3d9dc;
-border: none;
-border-radius: 6px;
-font-size: 16px;
-padding: 15px 20px;
-width: 80%;
+  background-color: #f3d9dc;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 20px;
+  width: 80%;
 }
 
-.search-form-button{
+.search-form-button {
   background-color: #f3aab5;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
   color: white;
   margin-left: 5px;
-} 
+}
 
 main {
   padding: 30px 0;
@@ -55,10 +58,10 @@ main {
 }
 
 .weatherappdetails {
-font-size: 16px;
-line-height: 24px;
-color: rgba(39, 33, 66, 0.4);
-font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
 }
 
 .weatherappdetails strong {
@@ -66,7 +69,7 @@ font-weight: 500;
 }
 
 .weatherapptempcontainer {
-  display: flex
+  display: flex;
 }
 
 .weatherappicon {
@@ -75,9 +78,9 @@ font-weight: 500;
 }
 
 .weatherapptemp {
- font-size: 88px;
- line-height: 88px;
- font-weight: bold;
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
 }
 
 .weatherappunit {
