@@ -15,7 +15,7 @@ function refreshWeather(response) {
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
-  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weatherappicon" />`;
 
 getForecast(response.data.city);
 }
@@ -56,15 +56,14 @@ function handleSearchSubmit(event) {
 
 function getForecast(city) {
   let apiKey = "c5fb501012566e9bd47a3bo39e25tb37";
-  let apiUrl =
-    'https://api.shecodes.io/weather/v1/forecast?query={query}&key={apiKey}';
-axios(apiUrl).then(displayForecast);
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios(apiUrl).then(displayForecast);
 }
 
 function displayForecast(response) {
+  console.log(response.data);
 
-
-  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
 
   days.forEach(function (day) {
@@ -80,7 +79,7 @@ function displayForecast(response) {
           </div>
           <div class="weather-forecast-temperature">9º</div>
         </div>
-      </div>  
+      </div>
     `;
   });
 
